@@ -28,7 +28,7 @@ body{
 #Main{
     height: 50vh;
     width: 100%;
-    background-image: url(BG.jpg);
+    background-image: url(BG.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
