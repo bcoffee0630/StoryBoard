@@ -26,7 +26,8 @@ body{
 }
 
 #Main{
-    height: 50%;
+    height: 50vh;
+    width: 100%;
     background-image: url(BG.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -53,13 +54,13 @@ body{
     text-align: left;
 }
 
-.Container#Doc .Content h2{
+.Content h2{
     font-family: Genjyuu;
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-weight: 100;
 }
 
-.Container#Doc .Content p{
+.Content p{
     font-family: Microsoft JHengHei UI;
     font-size: 1vw;
 }
@@ -79,14 +80,12 @@ body{
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
 }
 
-@media (max-width: 600px){
+@media screen and (max-width: 600px){
     #Main{
-        height: 20%;
-        background-image: url(BG.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        filter: blur(5px) brightness(.8) grayscale(.5);
+        height: 20vh;
+    }
+
+    .Content h2{
+        font-size: 26px;
     }
 }
