@@ -74,18 +74,18 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    font-family: Genjyuu;
-    color: #ffffff;
-    font-size: .8vw;
-    font-weight: 80;
 }
 
 .Footer p{
     margin: 0 25px;
-    padding: 25px 100px;
+    padding: 2.5vh 3.5vw;
     border-radius: 10px 10px 0px 0px;
     background-color: rgb(194, 198, 204);
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+    font-family: Genjyuu;
+    color: #ffffff;
+    font-size: .8vw;
+    font-weight: 80;
 }
 
 @media screen and (max-width: 600px){
@@ -94,7 +94,12 @@ body{
     }
 
     .Content h2{
-        font-size: 26px;
+        font-size: 30px;
+    }
+
+    .Content p{
+        font-family: Microsoft JHengHei UI;
+        font-size: 16px;
     }
 
     .Footer{
@@ -105,7 +110,8 @@ body{
 
     .Footer p{
         margin: 0;
-        padding: 10px 25px;
-        border-radius: 5px 5px 0px 0px;
+        padding: 2.2vh 5vw;
+        border-radius: 8px 8px 0px 0px;
+        font-size: 16px;
     }
 }
