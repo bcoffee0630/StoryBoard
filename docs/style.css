@@ -81,11 +81,12 @@ body{
 
 @media only screen and (max-width: 600px){
     #Main{
-    height: 20%;
-    background-image: url(BG.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    filter: blur(5px) brightness(.8) grayscale(.5);
+        height: 20%;
+        background-image: url(BG.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        filter: blur(5px) brightness(.8) grayscale(.5);
+    }
 }
